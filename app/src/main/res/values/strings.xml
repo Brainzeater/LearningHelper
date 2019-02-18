@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Learning Helper</string>
+    <string name="main_title">Learning Helper</string>
+    <string name="my_courses">My courses</string>
+    <string name="add_course_title">Add new course</string>
+    <string name="new_course_title_hint">Type the title of the course</string>
+    <string name="add_button">Add</string>
+    <string name="update_button">Update</string>
+    <string name="topic_activity_title">%1$s Topics</string>
+    <string name="new_topic_title_hint">Type the title of the topic</string>
+    <string name="add_topic_title">Add new topic</string>
+    <string name="chunk_activity_title">Chunks</string>
+    <string name="add_chunk_title">Add new chunk</string>
+    <string name="new_chunk_title_hint">Type the title of the chunk</string>
+
+    <string name="main_notification_channel_name">Primary</string>
+</resources>

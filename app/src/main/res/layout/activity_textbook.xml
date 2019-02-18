@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECB3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            tools:context=".TextbookActivity">
+
+            <TextView
+                android:id="@+id/main_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:onClick="openMainPage"
+                android:text="Course main page"
+                android:textColor="@color/colorPrimaryTextLight"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/pomodoro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:onClick="openPomodoro"
+                android:text="Pomodoro method"
+                android:textColor="@color/colorPrimaryTextLight"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/what_is"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:onClick="openWhat"
+                android:text="What is Learning?"
+                android:textColor="@color/colorPrimaryTextLight"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/chunk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:onClick="openChunk"
+                android:text="What is a chunk?"
+                android:textColor="@color/colorPrimaryTextLight"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/how_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:onClick="openHowToFormChunk"
+                android:text="How to form a chunk?"
+                android:textColor="@color/colorPrimaryTextLight"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
